@@ -77,7 +77,7 @@ export default function Results({ result, hasConcentrationRisk }: ResultsProps) 
           </p>
           <a
             className={styles.ctaButton}
-            href="https://fulfill.com/contact"
+            href={import.meta.env.VITE_CALENDAR_URL || 'https://fulfill.com/contact'}
             target="_blank"
             rel="noopener noreferrer"
           >

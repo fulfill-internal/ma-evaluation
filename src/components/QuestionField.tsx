@@ -1,5 +1,6 @@
 import type { Question } from '../types';
 import Tooltip from './Tooltip';
+import MultiSelectDropdown from './MultiSelectDropdown';
 import styles from './QuestionField.module.css';
 
 interface QuestionFieldProps {
@@ -77,6 +78,14 @@ export default function QuestionField({ question, value, onChange }: QuestionFie
             );
           })}
         </div>
+      )}
+
+      {type === 'dropdown-multi' && options && (
+        <MultiSelectDropdown
+          options={options}
+          value={Array.isArray(value) ? value : []}
+          onChange={(selected) => onChange(id, selected)}
+        />
       )}
 
       {type === 'multi-select' && (

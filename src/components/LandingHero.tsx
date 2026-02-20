@@ -1,4 +1,4 @@
-import { useState, useRef, FormEvent } from 'react';
+import { useState, useRef, type FormEvent } from 'react';
 import styles from './LandingHero.module.css';
 
 interface LandingHeroProps {
@@ -40,7 +40,7 @@ const STEPS = [
   {
     num: '02',
     title: 'Strategy Call',
-    desc: 'Review results with Greg — former 3PL founder, $0 to $15M exit. Free, no pressure.',
+    desc: 'Review results with M&A experts — former 3PL founders, $0 to $15M exits. Free, no pressure.',
   },
   {
     num: '03',
@@ -236,8 +236,7 @@ export default function LandingHero({ onSubmit }: LandingHeroProps) {
 
       {/* ── Footer ── */}
       <footer className={styles.footer}>
-        © 2025 Fulfill.com · All submissions strictly confidential · greg@fulfill.com ·
-        fulfill.com/m-a
+        © 2025 Fulfill.com · All submissions strictly confidential · fulfill.com/m-a
       </footer>
     </div>
   );

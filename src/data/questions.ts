@@ -113,8 +113,12 @@ export const surveySections: SurveySection[] = [
           { label: 'Retail / Omnichannel', value: 'retail' },
           { label: 'Food & Beverage', value: 'food_bev' },
           { label: 'Health & Beauty', value: 'health_beauty' },
-          { label: 'Industrial / B2B', value: 'industrial' },
+          { label: 'Industrial', value: 'industrial' },
+          { label: 'B2B / Pallet Movements', value: 'b2b' },
+          { label: 'FBA', value: 'fba' },
           { label: 'Technology / Electronics', value: 'tech' },
+          { label: 'Apparel / Footwear / Jewelry', value: 'apparel_footwear_jewelry' },
+          { label: 'Dangerous Goods / Hazmat', value: 'hazmat' },
           { label: 'Other', value: 'other' },
         ],
       },
@@ -140,7 +144,7 @@ export const surveySections: SurveySection[] = [
       {
         id: 'operating_countries',
         text: 'Which countries do you operate in?',
-        type: 'multi-select',
+        type: 'dropdown-multi',
         required: true,
         options: [
           { label: 'United States', value: 'us' },
@@ -195,7 +199,7 @@ export const surveySections: SurveySection[] = [
       {
         id: 'wms_system',
         text: 'What Warehouse Management System (WMS) do you use?',
-        type: 'multi-select',
+        type: 'select',
         required: true,
         options: [
           { label: 'Custom', value: 'custom' },

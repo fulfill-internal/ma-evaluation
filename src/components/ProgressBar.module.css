@@ -4,7 +4,7 @@
 
 .steps {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   position: relative;
   margin-bottom: 12px;
@@ -12,12 +12,11 @@
 
 .line {
   position: absolute;
-  top: 50%;
+  top: 16px;
   left: 0;
   right: 0;
   height: 2px;
   background: var(--color-border);
-  transform: translateY(-50%);
   z-index: 0;
 }
 

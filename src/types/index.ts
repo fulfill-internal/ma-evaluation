@@ -1,4 +1,4 @@
-export type QuestionType = 'text' | 'select' | 'multi-select' | 'radio' | 'range';
+export type QuestionType = 'text' | 'select' | 'multi-select' | 'dropdown-multi' | 'radio' | 'range';
 
 export interface QuestionOption {
   label: string;

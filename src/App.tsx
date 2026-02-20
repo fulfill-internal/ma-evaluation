@@ -138,10 +138,12 @@ export default function App() {
           })
           .eq('id', state.evaluationId);
 
-        // Trigger email Edge Function
+        // Trigger results email via Vercel API route
         try {
-          await supabase.functions.invoke('send-results-email', {
-            body: {
+          await fetch('/api/send-results-email', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
               evaluationId: state.evaluationId,
               email: state.email,
               valuationLow: result.valuationLow,
@@ -149,7 +151,7 @@ export default function App() {
               ebitdaMultipleLow: result.ebitdaMultipleLow,
               ebitdaMultipleHigh: result.ebitdaMultipleHigh,
               estimatedEbitda: result.estimatedEbitda,
-            },
+            }),
           });
         } catch {
           // Email sending is non-blocking

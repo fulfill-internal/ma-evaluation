@@ -377,7 +377,7 @@
   color: #fff;
   font-size: 18px;
   font-weight: 700;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 16px;
