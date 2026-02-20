@@ -1,0 +1,90 @@
+.container {
+  padding: 0 0 32px;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-border);
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.lineFill {
+  height: 100%;
+  background: var(--gradient-primary);
+  transition: width 0.4s ease;
+}
+
+.step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  transition: all 0.3s ease;
+}
+
+.dotActive {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.dotCompleted {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-align: center;
+  max-width: 80px;
+  transition: color 0.3s ease;
+}
+
+.labelActive {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .label {
+    display: none;
+  }
+
+  .dot {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+}

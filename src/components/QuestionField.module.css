@@ -1,0 +1,142 @@
+.field {
+  margin-bottom: 28px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.textInput {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  font-size: 15px;
+  color: var(--color-text);
+  background: var(--color-bg);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.textInput:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(27, 118, 255, 0.12);
+}
+
+.selectInput {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  font-size: 15px;
+  color: var(--color-text);
+  background: var(--color-bg);
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%236B7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.selectInput:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(27, 118, 255, 0.12);
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.radioOption {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: var(--color-bg);
+}
+
+.radioOption:hover {
+  border-color: var(--color-primary);
+  background: rgba(27, 118, 255, 0.03);
+}
+
+.radioOptionSelected {
+  border-color: var(--color-primary);
+  background: rgba(27, 118, 255, 0.06);
+}
+
+.radioInput {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.radioLabel {
+  font-size: 14px;
+  color: var(--color-text);
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkboxOption {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: var(--color-bg);
+}
+
+.checkboxOption:hover {
+  border-color: var(--color-primary);
+  background: rgba(27, 118, 255, 0.03);
+}
+
+.checkboxOptionSelected {
+  border-color: var(--color-primary);
+  background: rgba(27, 118, 255, 0.06);
+}
+
+.checkboxInput {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.checkboxLabel {
+  font-size: 14px;
+  color: var(--color-text);
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.error {
+  border-color: var(--color-error) !important;
+}

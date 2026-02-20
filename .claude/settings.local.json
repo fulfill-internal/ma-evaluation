@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.fulfill.com)",
+      "Bash(find:*)",
+      "Bash(git -C /c/Source/fulfill/ma-evaluation log --oneline)",
+      "Bash(git -C /c/Source/fulfill/ma-evaluation status)",
+      "WebSearch",
+      "WebFetch(domain:supabase.com)",
+      "Bash(npm create:*)",
+      "Bash(npx:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_run_code",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_wait_for",
+      "mcp__plugin_playwright_playwright__browser_close",
+      "Bash(pkill:*)"
+    ]
+  }
+}
