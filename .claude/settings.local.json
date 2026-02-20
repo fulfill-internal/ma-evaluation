@@ -35,7 +35,11 @@
       "WebFetch(domain:cdn.prod.website-files.com)",
       "Bash(grep:*)",
       "Bash(npm run build:*)",
-      "Bash(openssl rand:*)"
+      "Bash(openssl rand:*)",
+      "WebFetch(domain:developers.beehiiv.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.beehiiv.com)",
+      "Bash(node --env-file=.env test-abandoned.mjs:*)"
     ]
   }
 }

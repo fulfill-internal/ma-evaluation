@@ -84,6 +84,13 @@ export default function App() {
       }
     }
 
+    // Subscribe to beehiiv mailing list (fire-and-forget)
+    fetch('/api/subscribe-beehiiv', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    }).catch(() => {});
+
     setScreen('survey');
   }, [setEmail, setEvaluationId]);
 

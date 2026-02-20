@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { createClient } from '@supabase/supabase-js';
-import { sendEmail } from './_lib/sendgrid';
+import { sendTemplateEmail } from './_lib/sendgrid';
 
 const SUPABASE_URL = process.env.VITE_SUPABASE_URL || '';
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
@@ -16,42 +16,8 @@ interface AbandonedEval {
   created_at: string;
 }
 
-const EMAIL_THRESHOLDS_HOURS = [1, 24, 72];
-
-const EMAIL_TEMPLATES = [
-  {
-    subject: 'Your 3PL valuation is waiting',
-    heading: "You're Almost There",
-    body: "You started your confidential 3PL valuation but didn't finish. It only takes a few more minutes to see what your business could be worth.",
-    cta: 'Continue My Valuation',
-  },
-  {
-    subject: "You're just a few questions away from your valuation",
-    heading: 'Pick Up Where You Left Off',
-    body: "You're close to getting your personalized 3PL valuation. We saved your progress — just click below to continue right where you left off.",
-    cta: 'Finish My Valuation',
-  },
-  {
-    subject: 'Last chance: see what your 3PL is worth',
-    heading: "Don't Miss Out",
-    body: "This is our final reminder. Your partially completed valuation is still saved, but we'll remove it soon. Take 3 minutes to finish and discover what your 3PL could be worth.",
-    cta: 'Get My Valuation Now',
-  },
-];
-
-function buildRecoveryEmail(template: typeof EMAIL_TEMPLATES[number], resumeUrl: string): string {
-  return `
-    <div style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px;">
-      <h1 style="color: #1A1A2E; font-size: 24px;">${template.heading}</h1>
-      <p style="color: #6B7280; font-size: 16px; line-height: 1.6; margin: 16px 0 24px;">${template.body}</p>
-      <a href="${resumeUrl}" style="display: inline-block; padding: 14px 32px; background: linear-gradient(135deg, #1B76FF, #29359D); color: #fff; font-size: 16px; font-weight: 700; border-radius: 100px; text-decoration: none;">${template.cta}</a>
-      <hr style="border: none; border-top: 1px solid #E5E7EB; margin: 32px 0;" />
-      <p style="color: #9CA3AF; font-size: 12px;">
-        You received this email because you started a valuation at Fulfill. If you didn't request this, you can safely ignore it.
-      </p>
-    </div>
-  `;
-}
+const EMAIL_THRESHOLDS_HOURS = [1 / 60, 1 / 60, 1 / 60]; // TODO: restore to [1, 24, 72] after testing
+const ABANDONED_TEMPLATE_ID = 'd-e95b79a28c7744078d3025b7d3e544d4';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Verify cron secret (Vercel Cron Jobs send this automatically)
@@ -101,11 +67,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
       if (!shouldSend) continue;
 
-      const template = EMAIL_TEMPLATES[emailIndex];
       const resumeUrl = `${APP_URL}?resume=${eval_.id}`;
-      const html = buildRecoveryEmail(template, resumeUrl);
 
-      await sendEmail(eval_.email, template.subject, html);
+      await sendTemplateEmail(eval_.email, ABANDONED_TEMPLATE_ID, {
+        resume_url: resumeUrl,
+      });
 
       // Update the evaluation record
       await supabase
