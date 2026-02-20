@@ -19,7 +19,20 @@
       "mcp__plugin_playwright_playwright__browser_snapshot",
       "mcp__plugin_playwright_playwright__browser_wait_for",
       "mcp__plugin_playwright_playwright__browser_close",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(npm run dev:*)",
+      "mcp__ide__getDiagnostics",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "Bash(psql:*)",
+      "Bash(node:*)",
+      "Bash(for region in us-east-1 us-west-1 us-west-2 eu-west-1 ap-southeast-1 eu-central-1)",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(nslookup:*)",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(SUPABASE_ACCESS_TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN2am5jcmZ2eXVqcXB1YW5peGlmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MTU4ODIwNiwiZXhwIjoyMDg3MTY0MjA2fQ.uraEMwMFzTiI-mopPtWhqDFS4B6WOiyK61OAlBKa_BE\" npx supabase:*)",
+      "WebFetch(domain:cdn.prod.website-files.com)"
     ]
   }
 }
