@@ -39,7 +39,8 @@
       "WebFetch(domain:developers.beehiiv.com)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:www.beehiiv.com)",
-      "Bash(node --env-file=.env test-abandoned.mjs:*)"
+      "Bash(node --env-file=.env test-abandoned.mjs:*)",
+      "Bash(cd:*)"
     ]
   }
 }
