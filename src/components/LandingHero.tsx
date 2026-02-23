@@ -115,10 +115,16 @@ export default function LandingHero({ onSubmit }: LandingHeroProps) {
               autoComplete="email"
             />
             <button type="submit" className={styles.submitBtn} disabled={loading}>
-              {loading ? 'Starting...' : 'Get My Free Valuation'}
+              {loading ? 'Starting...' : 'Get My Free Valuation*'}
             </button>
           </form>
           <p className={styles.errorMsg}>{error}</p>
+          <p className={styles.termsDisclaimer}>
+            *By clicking "Get My Free Valuation" you agree to our{' '}
+            <a href="https://www.fulfill.com/terms-and-conditions" target="_blank" rel="noopener noreferrer">
+              Terms and Conditions
+            </a>
+          </p>
           <p className={styles.heroMeta}>~4 minutes · 100% confidential · No obligation</p>
         </div>
       </section>
@@ -227,7 +233,7 @@ export default function LandingHero({ onSubmit }: LandingHeroProps) {
       <section className={styles.cta}>
         <h2 className={styles.ctaTitle}>Find Out What Your 3PL Is Worth</h2>
         <button type="button" className={styles.ctaBtn} onClick={scrollToForm}>
-          Get My Free Valuation
+          Get My Free Valuation*
         </button>
         <p className={styles.ctaSub}>
           Sellers on Fulfill.com average 34% above their initial valuation estimate
