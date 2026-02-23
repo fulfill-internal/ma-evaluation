@@ -1,7 +1,5 @@
 import { sendEmail, formatCurrency } from '@/lib/sendgrid';
 
-export const runtime = 'edge';
-
 const INTERNAL_RECIPIENTS = ['greg@fulfill.com', 'taylor@fulfill.com'];
 
 interface RequestBody {

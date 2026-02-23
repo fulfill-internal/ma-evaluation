@@ -1,5 +1,3 @@
-export const runtime = 'edge';
-
 export async function POST(request: Request) {
   try {
     const { email } = (await request.json()) as { email: string };
