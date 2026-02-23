@@ -2,9 +2,9 @@
 import { createClient } from '@supabase/supabase-js';
 
 const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
-const SUPABASE_URL = process.env.VITE_SUPABASE_URL;
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
-const APP_URL = process.env.APP_URL || 'https://evaluate.fulfill.com';
+const APP_URL = process.env.APP_URL || 'https://fulfill.com/evaluate';
 
 const ABANDONED_TEMPLATE_ID = 'd-e95b79a28c7744078d3025b7d3e544d4';
 const FROM_EMAIL = 'team@fulfill.com';

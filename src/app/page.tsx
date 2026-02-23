@@ -1,14 +1,17 @@
-import { useState, useEffect, useCallback } from 'react';
-import type { AppScreen, ValuationResult } from './types';
-import { supabase, isSupabaseConfigured } from './lib/supabase';
-import { calculateValuation } from './engine/valuationEngine';
-import { useSurveyState } from './hooks/useSurveyState';
-import { surveySections } from './data/questions';
-import LandingHero from './components/LandingHero';
-import Survey from './components/Survey';
-import Results from './components/Results';
+'use client';
 
-export default function App() {
+import { useState, useEffect, useCallback } from 'react';
+import type { AppScreen, ValuationResult } from '../types';
+import { supabase, isSupabaseConfigured } from '../lib/supabase';
+import { calculateValuation } from '../engine/valuationEngine';
+import { useSurveyState } from '../hooks/useSurveyState';
+import { surveySections } from '../data/questions';
+import LandingHero from '../components/LandingHero';
+import Survey from '../components/Survey';
+import Results from '../components/Results';
+import { apiUrl } from '../lib/api';
+
+export default function Page() {
   const [screen, setScreen] = useState<AppScreen>('landing');
   const [valuationResult, setValuationResult] = useState<ValuationResult | null>(null);
   const [concentrationRisk, setConcentrationRisk] = useState(false);
@@ -30,7 +33,7 @@ export default function App() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const resumeId = params.get('resume');
-    if (!resumeId || !isSupabaseConfigured) return;
+    if (!resumeId || !isSupabaseConfigured()) return;
 
     (async () => {
       try {
@@ -61,7 +64,7 @@ export default function App() {
   const handleEmailSubmit = useCallback(async (email: string) => {
     setEmail(email);
 
-    if (isSupabaseConfigured) {
+    if (isSupabaseConfigured()) {
       try {
         const { data, error } = await supabase
           .from('evaluations')
@@ -85,7 +88,7 @@ export default function App() {
     }
 
     // Subscribe to beehiiv mailing list (fire-and-forget)
-    fetch('/api/subscribe-beehiiv', {
+    fetch(apiUrl('/api/subscribe-beehiiv'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email }),
@@ -95,7 +98,7 @@ export default function App() {
   }, [setEmail, setEvaluationId]);
 
   const saveProgress = useCallback(async (section: number) => {
-    if (!state.evaluationId || !isSupabaseConfigured) return;
+    if (!state.evaluationId || !isSupabaseConfigured()) return;
     try {
       await supabase
         .from('evaluations')
@@ -128,7 +131,7 @@ export default function App() {
     setConcentrationRisk(hasRisk);
 
     // Save completed evaluation to Supabase
-    if (state.evaluationId && isSupabaseConfigured) {
+    if (state.evaluationId && isSupabaseConfigured()) {
       try {
         await supabase
           .from('evaluations')
@@ -145,9 +148,9 @@ export default function App() {
           })
           .eq('id', state.evaluationId);
 
-        // Trigger results email via Vercel API route
+        // Trigger results email via API route
         try {
-          await fetch('/api/send-results-email', {
+          await fetch(apiUrl('/api/send-results-email'), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

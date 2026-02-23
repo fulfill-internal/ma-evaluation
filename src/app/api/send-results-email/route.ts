@@ -1,5 +1,6 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { sendEmail, formatCurrency } from './_lib/sendgrid';
+import { sendEmail, formatCurrency } from '@/lib/sendgrid';
+
+export const runtime = 'edge';
 
 const INTERNAL_RECIPIENTS = ['greg@fulfill.com', 'taylor@fulfill.com'];
 
@@ -13,13 +14,9 @@ interface RequestBody {
   estimatedEbitda: number;
 }
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
-
+export async function POST(request: Request) {
   try {
-    const body = req.body as RequestBody;
+    const body: RequestBody = await request.json();
     const { email, valuationLow, valuationHigh, ebitdaMultipleLow, ebitdaMultipleHigh, estimatedEbitda } = body;
 
     const valRange = `${formatCurrency(valuationLow)} – ${formatCurrency(valuationHigh)}`;
@@ -70,9 +67,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       await sendEmail(recipient, `New 3PL Valuation: ${valRange} — ${email}`, internalHtml);
     }
 
-    return res.status(200).json({ success: true });
+    return Response.json({ success: true });
   } catch (error) {
     console.error('send-results-email error:', error);
-    return res.status(500).json({ error: String(error) });
+    return Response.json({ error: String(error) }, { status: 500 });
   }
 }

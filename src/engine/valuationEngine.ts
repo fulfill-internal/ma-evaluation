@@ -18,8 +18,8 @@ export function calculateValuation(answers: Answers): ValuationResult {
   }
 
   const estimatedEbitda = revenue.midpoint * marginRate;
-  let baseMultipleLow = revenue.multipleLow;
-  let baseMultipleHigh = revenue.multipleHigh;
+  const baseMultipleLow = revenue.multipleLow;
+  const baseMultipleHigh = revenue.multipleHigh;
 
   // Tier 2: Apply adjusters
   const factors: ValuationFactor[] = [];

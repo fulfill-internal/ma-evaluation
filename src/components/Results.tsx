@@ -1,5 +1,6 @@
 import type { ValuationResult } from '../types';
 import { formatCurrency } from '../engine/valuationEngine';
+import { getEnv } from '../lib/env';
 import styles from './Results.module.css';
 
 interface ResultsProps {
@@ -77,7 +78,7 @@ export default function Results({ result, hasConcentrationRisk }: ResultsProps) 
           </p>
           <a
             className={styles.ctaButton}
-            href={import.meta.env.VITE_CALENDAR_URL || 'https://fulfill.com/contact'}
+            href={getEnv('NEXT_PUBLIC_CALENDAR_URL') || 'https://fulfill.com/contact'}
             target="_blank"
             rel="noopener noreferrer"
           >
