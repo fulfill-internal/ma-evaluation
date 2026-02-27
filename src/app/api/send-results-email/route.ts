@@ -68,7 +68,7 @@ export async function POST(request: Request) {
         </p>
         <p style="color: #6B7280; font-size: 14px; line-height: 1.6;">
           Want to discuss your options? Our M&A team will reach out within 1 business day, or you can
-          <a href="https://fulfill.com/contact" style="color: #1B76FF;">schedule a call</a> directly.
+          <a href="${process.env.NEXT_PUBLIC_CALENDAR_URL || 'https://fulfill.com/contact'}" style="color: #1B76FF;">schedule a call</a> directly.
         </p>
         <hr style="border: none; border-top: 1px solid #E5E7EB; margin: 32px 0;" />
         <p style="color: #9CA3AF; font-size: 12px;">

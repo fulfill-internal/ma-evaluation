@@ -117,10 +117,12 @@ export default function Page() {
     const nextSectionIndex = state.currentSection + 1;
     nextSection();
     saveProgress(nextSectionIndex);
+    window.scrollTo({ top: 0 });
   }, [state.currentSection, nextSection, saveProgress]);
 
   const handleComplete = useCallback(async () => {
     setScreen('calculating');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
     const result = calculateValuation(state.answers);
     setValuationResult(result);
