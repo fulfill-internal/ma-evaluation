@@ -1,0 +1,1013 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - link "home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Fulfill logo image depicting a 3pl warehouse for ecommerce companies" [ref=e6]
+        - generic [ref=e7]:
+          - link "How It Works" [ref=e8] [cursor=pointer]:
+            - /url: /how-it-works
+          - button "Case Studies" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Case Studies
+          - link "3PL Directory" [ref=e12] [cursor=pointer]:
+            - /url: /3pl
+          - button "Resources" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Resources
+          - link "About Us" [ref=e16] [cursor=pointer]:
+            - /url: /about-us
+        - generic [ref=e17]:
+          - link "List Your 3PL" [ref=e18] [cursor=pointer]:
+            - /url: /get-listed
+          - link "Find Your 3PL" [ref=e19] [cursor=pointer]:
+            - /url: https://app.fulfill.com/find-3pl/
+      - text: 
+  - generic [ref=e20]:
+    - banner [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e27]: Trusted by 10,000+ Brands for 3PL Matching
+          - heading "Match with your perfect 3PL" [level=1] [ref=e29]
+          - paragraph [ref=e30]: No more wasted weeks vetting dozens of incompatible 3PLs. Connect directly with providers that can actually meet your needs.
+          - form "home-page-matching-form" [ref=e32]:
+            - textbox "Enter your email to start" [ref=e33]
+            - button "Start Matching Now" [ref=e34] [cursor=pointer]
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - img [ref=e38]
+              - generic [ref=e41]: Share your requirements
+            - generic [ref=e42]:
+              - img [ref=e44]
+              - generic [ref=e47]: Review our recommendations
+            - generic [ref=e48]:
+              - img [ref=e50]
+              - generic [ref=e53]: Work with top-rated 3PLs
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - img "V Coterie logo" [ref=e60]
+                - img "Litecoin company logo" [ref=e62]
+                - img "Ice Barrel company logo" [ref=e64]
+                - img "Swannies Golf company logo" [ref=e66]
+              - generic [ref=e67]:
+                - img "Liquid Death company logo" [ref=e69]
+                - img "Brew Dr Kombucha company logo" [ref=e71]
+                - img "Exoforma car care company logo" [ref=e73]
+                - img "Almond Clear company logo" [ref=e75]
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - img "Riot Swim company logo" [ref=e79]
+                - img "Lucky Energy company logo" [ref=e81]
+                - img "Pendulum company logo" [ref=e83]
+                - img "Aeropress company logo" [ref=e85]
+              - generic [ref=e86]:
+                - img "Loudmouth company logo" [ref=e88]
+                - img "Hello Fresh company logo" [ref=e90]
+                - img "Patagonia Provisions company logo" [ref=e92]
+                - img "RadioShack logo with a red registered trademark symbol." [ref=e94]
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - img "Nasa company logo" [ref=e99]
+                - img "Little Spoon company logo" [ref=e101]
+                - img "Laughland company logo" [ref=e103]
+                - img "Aura House company logo" [ref=e105]
+              - generic [ref=e106]:
+                - img "Balance Body company logo" [ref=e108]
+                - img "Caffeine and Kilos company logo" [ref=e110]
+                - img "1-800-Flowers company logo" [ref=e112]
+                - img "Kiss My Keto company logo" [ref=e114]
+              - generic [ref=e115]:
+                - img "WIld Woven company logo" [ref=e117]
+                - img "Fit Creamery company logo" [ref=e119]
+                - img "Good Girl Snacks company logo" [ref=e121]
+                - img "Oh Norman company logo" [ref=e123]
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - img "Iron Neck company logo" [ref=e127]
+                - img "RadioShack company logo" [ref=e129]
+                - img "Pudgy Penguins company logo" [ref=e131]
+                - img "Shorebird company logo" [ref=e133]
+              - generic [ref=e134]:
+                - img "Chirp company logo" [ref=e136]
+                - img "Zound company logo" [ref=e138]
+                - img "VeeFriends company logo" [ref=e140]
+                - img "RadioShack logo with a red registered trademark symbol." [ref=e142]
+              - generic [ref=e143]:
+                - img "Chirp brand logo in blue text on a white background." [ref=e145]
+                - img "VeeFriends logo text in bold black font on white background." [ref=e147]
+                - img "Logo of Pudgy Penguins with stylized white and blue text above black penguin-themed font." [ref=e149]
+                - img "RadioShack logo with a red registered trademark symbol." [ref=e151]
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - img "Pretty Litter company logo" [ref=e156]
+                - img "Longchamp company logo" [ref=e158]
+                - img "LOVB company logo" [ref=e160]
+                - img "Banwood company logo" [ref=e162]
+              - generic [ref=e163]:
+                - img "Black paw print with radiating lines above the word Goldie in capital letters." [ref=e165]
+                - img "Dumbclub company logo" [ref=e167]
+                - img "Hallstein water company logo" [ref=e169]
+                - img "Sistaco company logo" [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - img "Tiny sprouts company logo" [ref=e175]
+                - img "Uplight company logo" [ref=e177]
+                - img "The Home Depot company logo" [ref=e179]
+                - img "Hero Forge company logo" [ref=e181]
+              - generic [ref=e182]:
+                - img "Takomo Golf company logo" [ref=e184]
+                - img "Saint Javelin company logo" [ref=e186]
+                - img "Amara organics company logo" [ref=e188]
+                - img "The Chosen company logo" [ref=e190]
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - img [ref=e197]
+        - heading "10,000+ Brands Supported" [level=4] [ref=e201]
+      - generic [ref=e203]:
+        - img [ref=e205]
+        - heading "2,800+ Warehouses" [level=4] [ref=e207]
+      - generic [ref=e209]:
+        - img [ref=e211]
+        - heading "95% Placement rate" [level=4] [ref=e214]
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]: 3PL Selection Made Simple
+        - heading "Find the Perfect Logistics Partner for Your Unique Business Needs" [level=2] [ref=e220]
+        - paragraph [ref=e221]: We analyze your specific fulfillment needs to identify compatible 3PL partners from our global network. Get personalized recommendations based on location, capacity, technology, and service capabilities.
+      - generic [ref=e222]:
+        - iframe [ref=e227]:
+          - generic [active] [ref=f4e1]:
+            - iframe [ref=f4e4]:
+              - generic [ref=f5e4]:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                  - generic:
+                    - img
+                    - generic: Playing in picture-in-picture
+                - button "Play" [ref=f5e12] [cursor=pointer]:
+                  - img [ref=f5e13]
+                  - generic:
+                    - generic: Play
+                    - img [ref=f5e16]
+            - iframe [ref=f4e7]:
+              - generic [ref=f6e4]:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                  - generic:
+                    - img
+                    - generic: Playing in picture-in-picture
+                - button "Play" [ref=f6e12] [cursor=pointer]:
+                  - img [ref=f6e13]
+                  - generic:
+                    - generic: Play
+                    - img [ref=f6e16]
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - heading "Verified Capabilities" [level=4] [ref=e230]
+            - paragraph [ref=e231]: Every 3PL in our network undergoes thorough qualification to verify service and technology capabilities.
+          - generic [ref=e232]:
+            - heading "Streamlined Search" [level=4] [ref=e233]
+            - paragraph [ref=e234]: Our algorithm analyzes your specific requirements to identify 3PLs with proven capabilities for your needs.
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - heading "Complete Price Transparency" [level=4] [ref=e237]
+            - paragraph [ref=e238]: Receive clear, upfront pricing and terms, giving you confidence in your fulfillment budget planning.
+          - generic [ref=e239]:
+            - heading "Confident Partner Selection" [level=4] [ref=e240]
+            - paragraph [ref=e241]: Make decisions with certainty, backed by our data-driven matching process and extensive industry expertise.
+          - generic [ref=e242]:
+            - heading "Long-Term Success Planning" [level=4] [ref=e243]
+            - paragraph [ref=e244]: Connect with partners aligned to your growth goals, creating stable relationships that evolve together.
+          - generic [ref=e245]:
+            - generic:
+              - img "Black circle with a white grid pattern of evenly spaced horizontal and vertical lines."
+            - generic [ref=e246]:
+              - heading "Start Matching" [level=4] [ref=e247]
+              - generic [ref=e248]: Share requirements and get matched with 3PLs equipped for your business.
+            - link "Find Your 3PL" [ref=e249] [cursor=pointer]:
+              - /url: https://app.fulfill.com/find-3pl/
+              - generic [ref=e250]: Find Your 3PL
+    - generic [ref=e256]:
+      - generic [ref=e258]:
+        - generic [ref=e260]: How It Works
+        - heading "Your Perfect 3PL Match in 4 Easy Steps" [level=2] [ref=e261]
+        - link "Begin Matching" [ref=e263] [cursor=pointer]:
+          - /url: https://app.fulfill.com/find-3pl/
+          - generic [ref=e264]: Begin Matching
+          - img [ref=e266]
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - img [ref=e271]
+            - generic [ref=e274]: Share your fulfillment needs
+          - generic [ref=e275]:
+            - img [ref=e277]
+            - generic [ref=e280]: Get matched with compatible providers
+          - generic [ref=e281]:
+            - img [ref=e283]
+            - generic [ref=e286]: Work with reliable, long-term 3PL partners
+      - generic [ref=e290]:
+        - generic [ref=e291]:
+          - generic [ref=e295]: "1"
+          - generic [ref=e296]:
+            - heading "Share Your Requirements" [level=4] [ref=e298]
+            - paragraph [ref=e299]: Complete our quick questionnaire about your products, volume, and fulfillment needs. For complex requirements, our experts will schedule a brief consultation to ensure we capture all details.
+        - generic [ref=e300]:
+          - generic [ref=e304]: "2"
+          - generic [ref=e305]:
+            - heading "Get Personalized Matches" [level=4] [ref=e307]
+            - paragraph [ref=e308]: Our team analyzes your unique needs against our database of pre-vetted 3PLs. We identify providers with the right capabilities, experience, and capacity for your business.
+        - generic [ref=e309]:
+          - generic [ref=e313]: "3"
+          - generic [ref=e314]:
+            - heading "Connect With Pre-Qualified Partners" [level=4] [ref=e316]
+            - paragraph [ref=e317]: Skip the cold calls and wasted meetings. We secure interest from 3PLs first, then present only providers genuinely interested in your business. You choose which ones to meet.
+        - generic [ref=e318]:
+          - generic [ref=e322]: "4"
+          - generic [ref=e323]:
+            - heading "Select Your Ideal Partner" [level=4] [ref=e325]
+            - paragraph [ref=e326]: Evaluate options with our support, leveraging our market insights and pricing data. Make a confident decision and transition smoothly to your new fulfillment solution.
+    - generic [ref=e329]:
+      - list [ref=e331]:
+        - group "1 / 4" [ref=e332]:
+          - generic [ref=e334]:
+            - generic [ref=e337]:
+              - generic [ref=e338]: "\"If you’re a business owner and value your time and resources, connect with an intermediary like Fulfill to find the right 3PL. It will save you the time of manual outreach and the cost of making the wrong decision.\""
+              - generic [ref=e339]:
+                - generic [ref=e340]: Michael Herscu
+                - generic [ref=e341]:
+                  - generic [ref=e342]: Kiss My Keto
+                  - generic [ref=e343]: ","
+                  - generic [ref=e344]: Business Financial Manager
+            - generic [ref=e345]:
+              - generic [ref=e347]: "Customer Success Story: The Omnichannel Established Brand"
+              - heading "Kiss My Keto reduced carrier rates by 41% with Fulfill" [level=2] [ref=e349]
+              - paragraph [ref=e351]: Kiss My Keto is a prominent health & wellness company that specializes in keto-friendly snacks and supplements. Featured in publications like Women’s Health, Parade, and Delish, Kiss My Keto has built a legacy helping people commit to one of the healthiest diets on the planet.
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - generic [ref=e355]: 41%
+                  - paragraph [ref=e356]: Reduction in carrier rates for 10+ lbs packages
+                - generic [ref=e357]:
+                  - generic [ref=e359]: 25%
+                  - paragraph [ref=e360]: Reduction in kitting and shipping costs
+                - generic [ref=e361]:
+                  - generic [ref=e363]: "15"
+                  - paragraph [ref=e364]: Hours saved during the 3PL vetting process
+        - group "2 / 4" [ref=e365]:
+          - generic [ref=e367]:
+            - generic [ref=e370]:
+              - generic [ref=e371]: “The main thing really is personalization and communication. I felt like Fulfill really listened to what we were looking for, and we got some great recommendations.”
+              - generic [ref=e372]:
+                - generic [ref=e373]: August Hektor
+                - generic [ref=e374]:
+                  - generic [ref=e375]: Project Ratchet
+                  - generic [ref=e376]: ","
+                  - generic [ref=e377]: Founder
+            - generic [ref=e378]:
+              - generic [ref=e380]: "Customer Success Story: The International Start-Up"
+              - heading "Project Ratchet saved 15+ hours a week through a Fulfill-vetted 3PL" [level=2] [ref=e382]
+              - paragraph [ref=e384]: Project Ratchet, a Swedish ring brand catering to a global audience, partnered with Fulfill to find a boutique 3PL that provided significant time and cost savings, and maintained the personalized customer experience they value.
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e388]: 15+
+                  - paragraph [ref=e389]: Hours saved per week on fulfillment
+                - generic [ref=e390]:
+                  - generic [ref=e392]: 50%
+                  - paragraph [ref=e393]: Reduction in US shipping costs
+                - generic [ref=e394]:
+                  - generic [ref=e396]: "72"
+                  - paragraph [ref=e397]: Hour reduction in processing times
+                - generic [ref=e398]:
+                  - generic [ref=e400]: 80%
+                  - paragraph [ref=e401]: Reduction in click-to-ship times during drops
+        - group "3 / 4" [ref=e402]:
+          - generic [ref=e404]:
+            - generic [ref=e407]:
+              - generic [ref=e408]: "\"Fulfill takes the mystery out of the 3PL vetting process. They provide a curated and detailed list of potential partners to start your search and even help with the decision-making process to ensure you get the best 3PL for your company.\""
+              - generic [ref=e409]:
+                - generic [ref=e410]: Lauren Cain
+                - generic [ref=e411]:
+                  - generic [ref=e412]: Elm Dirt
+                  - generic [ref=e413]: ","
+                  - generic [ref=e414]: Founder
+            - generic [ref=e415]:
+              - generic [ref=e417]: "Customer Success Story: The Family-Owned Farming Brand"
+              - heading "Elm Dirt saved 10+ hours vetting its new 3PL with Fulfill" [level=2] [ref=e419]
+              - paragraph [ref=e421]: Elm Dirt is an organic fertilizer and worm composting company on a mission to remove synthetic chemicals from our backyards. Starting as a small family project, Elm Dirt has quickly grown into a renowned fertilizer label with a robust online presence and in home improvement stores nationwide.
+              - generic [ref=e422]:
+                - generic [ref=e423]:
+                  - generic [ref=e425]: 10+
+                  - paragraph [ref=e426]: Hours saved during the 3PL vetting process
+                - generic [ref=e427]:
+                  - generic [ref=e429]: 1x
+                  - paragraph [ref=e430]: Per day inventory reports (lacked transparency previously)
+                - generic [ref=e431]:
+                  - generic [ref=e433]: "4"
+                  - paragraph [ref=e434]: Day improvement in average support ticket resolution
+                - generic [ref=e435]:
+                  - generic [ref=e437]: 10%
+                  - paragraph [ref=e438]: Revenue increase from new sales channel enablement
+        - group "4 / 4" [ref=e439]:
+          - generic [ref=e441]:
+            - generic [ref=e444]:
+              - generic [ref=e445]: "\"Fulfill provided a handful of recommendations so I can focus on the needle-moving activities. Otherwise, your options are to scour through Google with everyone under the sun popping up as an option. I don't know how anyone does it that way, especially for something that is so important and critical to your operations.\""
+              - generic [ref=e446]:
+                - generic [ref=e447]: Matt Homa
+                - generic [ref=e448]:
+                  - generic [ref=e449]: FurMe Technology
+                  - generic [ref=e450]: ","
+                  - generic [ref=e451]: Owner
+            - generic [ref=e452]:
+              - generic [ref=e454]: "Customer Success Story: The Cross-Border Scale-Up"
+              - heading "FurMe recaptured $4.00 per unit moving to a Canadian 3PL" [level=2] [ref=e456]
+              - paragraph [ref=e458]: FurMe specializes in creating high-quality pet products and operates primarily through direct-to-consumer channels. Despite having its own warehouse in the Midwest, FurMe faced challenges in managing inbound shipping times and costs, particularly for goods sourced from China. The company sought a Section 321 fulfillment solution to take over their orders in the Western US.
+              - generic [ref=e459]:
+                - generic [ref=e460]:
+                  - generic [ref=e462]: 50%
+                  - paragraph [ref=e463]: Reduction to inbound container costs
+                - generic [ref=e464]:
+                  - generic [ref=e466]: $4.00
+                  - paragraph [ref=e467]: Per unit recaptured using Section 321
+                - generic [ref=e468]:
+                  - generic [ref=e470]: "1"
+                  - paragraph [ref=e471]: Month improvement to inventory replenishment time
+                - generic [ref=e472]:
+                  - generic [ref=e474]: "2"
+                  - paragraph [ref=e475]: Node setup to achieve inventory optimization
+      - generic [ref=e476]:
+        - generic [ref=e477]:
+          - button "Go to slide 1" [ref=e478]
+          - button "Go to slide 2" [ref=e479]
+          - button "Go to slide 3" [ref=e480]
+          - button "Go to slide 4" [ref=e481]
+        - generic [ref=e482]:
+          - button "Previous slide" [disabled] [ref=e483] [cursor=pointer]:
+            - img [ref=e485]
+          - button "Next slide" [ref=e489] [cursor=pointer]:
+            - img [ref=e491]
+    - generic [ref=e497]:
+      - generic [ref=e498]:
+        - heading "Take the Guesswork out of 3PL Selection" [level=3] [ref=e499]
+        - generic [ref=e500]: Tired of 3PLs that overpromise and underdeliver? Our data-driven matching prevents costly partnership mistakes by connecting you with providers proven to excel with your specific requirements.
+      - generic:
+        - img "Black circle with a white grid pattern of evenly spaced horizontal and vertical lines."
+      - link "Get Matched With Top 3PLs" [ref=e501] [cursor=pointer]:
+        - /url: https://app.fulfill.com/find-3pl/
+        - generic [ref=e502]: Get Matched With Top 3PLs
+    - generic [ref=e506]:
+      - tablist [ref=e507]:
+        - heading "Featured 3PLs" [level=2] [ref=e508]
+        - tab "Geographic" [ref=e509] [cursor=pointer]:
+          - generic [ref=e510]: Geographic
+        - tab "Top-Rated" [ref=e511] [cursor=pointer]:
+          - generic [ref=e512]: Top-Rated
+        - tab "Company Size" [ref=e513] [cursor=pointer]:
+          - generic [ref=e514]: Company Size
+        - tab "Sales Channels" [ref=e515] [cursor=pointer]:
+          - generic [ref=e516]: Sales Channels
+        - tab "Specialization" [selected] [ref=e517] [cursor=pointer]:
+          - generic [ref=e518]: Specialization
+      - tabpanel "Company Size" [ref=e520]:
+        - list [ref=e522]:
+          - listitem [ref=e523]:
+            - generic [ref=e524]:
+              - img [ref=e526]
+              - generic [ref=e528]: Top Big and Bulky 3PL
+            - generic [ref=e529]:
+              - generic [ref=e532]: Red Stag Fulfillment
+              - generic [ref=e535]:
+                - img [ref=e537]
+                - generic [ref=e540]: Verified
+              - generic [ref=e542]: "Red Stag Fulfillment is a 3PL provider serving enterprise and fast-growing brands. Founded and owned by ecommerce operators, Red Stag was built on the belief that fulfillment delivers your brand. While Red Stag’s history and DNA are in big, heavy, and bulky products with both parcel and freight shipping capabilities, the company also handles smaller items at higher volumes and lower SKU counts, including accessories that accompany larger products. The company handles DTC parcels, DTC pallets, retail pallets to stores like Walmart and Target, and comprehensive Amazon solutions, including FBA prep, Seller Fulfilled Prime, and FBM fulfillment. The company's guarantees set it apart: zero shrinkage, order accuracy, on-time shipping with same-day options available, and fast receiving. If Red Stag misses a guarantee, they pay clients for the mistake. Red Stag's U.S.-based, in-house Client Success Team has deep fulfillment experience and a direct line to the warehouse floor when issues arise. A dedicated onboarding team ensures a seamless transition—at no extra cost. Red Stag operates two strategically located warehouses totaling 1.2 million square feet in Sweetwater, TN and Salt Lake City, UT. This allows brands to reach 96% of the U.S. within 2 days with ground shipping while minimizing costs. The company's dedicated logistics team simplifies inventory's journey from port to warehouse and handles outbound pallet and freight shipping coordination. Red Stag offers omnichannel fulfillment across DTC, retail, and marketplace channels. The company provides direct integrations to major platforms like Amazon and Shopify, middleware integrations for additional platform connections, and custom API options for complex fulfillment requirements."
+              - generic [ref=e543]:
+                - generic [ref=e544]:
+                  - img [ref=e546]
+                  - generic [ref=e548]:
+                    - generic [ref=e549]: Founded in
+                    - generic [ref=e550]: "2013"
+                - img [ref=e553]
+              - link "View 3PL Details" [ref=e556] [cursor=pointer]:
+                - /url: /3pl/profile/red-stag-fulfillment
+                - generic [ref=e557]: View 3PL Details
+                - img [ref=e559]
+          - listitem [ref=e561]:
+            - generic [ref=e562]:
+              - img [ref=e564]
+              - generic [ref=e566]: Top Beauty 3PL
+            - generic [ref=e567]:
+              - generic [ref=e570]: Upstate Prep
+              - generic [ref=e573]:
+                - img [ref=e575]
+                - generic [ref=e578]: Verified
+              - generic [ref=e580]: Upstate Prep is a trusted 3PL partner helping Amazon sellers and DTC brands streamline fulfillment with speed, accuracy, and boutique level care. Based in South Carolina and Oregon, we offer FBA prep, DTC shipping, and expert returns management—all powered by advanced WMS technology and a team committed to fast, reliable service that scales with your business.
+              - generic [ref=e581]:
+                - generic [ref=e582]:
+                  - img [ref=e584]
+                  - generic [ref=e586]:
+                    - generic [ref=e587]: Founded in
+                    - generic [ref=e588]: "2017"
+                - generic [ref=e589]:
+                  - img [ref=e591]
+                  - generic [ref=e594]: Regional
+              - link "View 3PL Details" [ref=e595] [cursor=pointer]:
+                - /url: /3pl/profile/upstate-prep
+                - generic [ref=e596]: View 3PL Details
+                - img [ref=e598]
+          - listitem [ref=e600]:
+            - generic [ref=e601]:
+              - img [ref=e603]
+              - generic [ref=e605]: Top Luxury Goods 3PL
+            - generic [ref=e606]:
+              - generic [ref=e609]: All Points
+              - generic [ref=e612]:
+                - img [ref=e614]
+                - generic [ref=e617]: Verified
+              - generic [ref=e620]: All Points has been in operation since 1995, providing dependable third-party logistics services to businesses across a wide range of industries. We specialize in receiving, warehousing, order fulfillment, shipping, and returns management, supported by a suite of value-added services that include printing, kitting, sub-assembly, and retail displays. These capabilities allow us to support both wholesale and direct-to-consumer (DTC) fulfillment needs. At the core of our operations is VeraCore, our Warehouse Management System (WMS) and Order Management System (OMS), which enables real-time tracking, inventory visibility, and streamlined processes. This technology allows us to efficiently manage complex fulfillment operations while maintaining the accuracy and speed necessary to scale efficiently. Over the years, we have built a strong reputation for our ability to adapt to changing client demands, including accommodating seasonal peaks and handling increased order volumes. Whether it's ramping up during busy periods or scaling operations for business growth, our team is committed to delivering tailored solutions that meet unique client requirements. We take pride in providing consistent, accurate, and efficient logistics services, and we maintain a client-focused approach in everything we do. Our goal is to ensure that our clients feel supported at every step of the process, from inventory management to the final delivery, allowing them to focus on growing their business while we handle the logistics.
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - img [ref=e624]
+                  - generic [ref=e626]:
+                    - generic [ref=e627]: Founded in
+                    - generic [ref=e628]: "1995"
+                - generic [ref=e629]:
+                  - img [ref=e631]
+                  - generic [ref=e634]: Boutique
+              - link "View 3PL Details" [ref=e635] [cursor=pointer]:
+                - /url: /3pl/profile/allpoints
+                - generic [ref=e636]: View 3PL Details
+                - img [ref=e638]
+          - listitem [ref=e640]:
+            - generic [ref=e641]:
+              - img [ref=e643]
+              - generic [ref=e645]: Top Apparel 3PL
+            - generic [ref=e646]:
+              - generic [ref=e649]: Komar Distribution Services, Inc.
+              - generic [ref=e652]:
+                - img [ref=e654]
+                - generic [ref=e657]: Verified
+              - generic [ref=e660]: A 3PL Built by Brand Operators for Brand Builders - For over a century, Komar Brands built products, scaled distribution, and navigated the complexities of retail partnerships. In 1998, we opened our logistics expertise to other brands, and KDS was born. Today, we're a 3PL built differently. We're brand operators serving brand builders who need a partner that truly gets it. We're best for brands scaling across retail and DTC who import product and need both operational excellence and financial advantages. Nearly all our 2.9M sq.ft. is FTZ-designated, saving customers millions through duty deferral, MPF reductions, and cash flow optimization. We handle the complexity of both retail compliance (99.93%) and DTC fulfillment (99.98% on-time) because we've done both ourselves. Our recent Savannah acquisition added 673K sq.ft. plus a 24/7 drayage fleet, while our new 855K Perris facility expands West Coast capacity. We own most of our facilities and the land around them, ensuring stability and expansion capacity as you grow. From GOH and kitting to cross-dock and last-mile, we bring enterprise technology, decades of experience, and the perspective of operators who've sat in your chair. Let's talk about building something together.
+              - generic [ref=e661]:
+                - generic [ref=e662]:
+                  - img [ref=e664]
+                  - generic [ref=e666]:
+                    - generic [ref=e667]: Founded in
+                    - generic [ref=e668]: "1998"
+                - generic [ref=e669]:
+                  - img [ref=e671]
+                  - generic [ref=e674]: Boutique
+              - link "View 3PL Details" [ref=e675] [cursor=pointer]:
+                - /url: /3pl/profile/komar-distribution
+                - generic [ref=e676]: View 3PL Details
+                - img [ref=e678]
+          - listitem [ref=e680]:
+            - generic [ref=e681]:
+              - img [ref=e683]
+              - generic [ref=e685]: Top Kitting 3PL
+            - generic [ref=e686]:
+              - generic [ref=e689]: Abacus Logistics
+              - generic [ref=e692]:
+                - img [ref=e694]
+                - generic [ref=e697]: Verified
+              - generic [ref=e699]: Abacus Logistics is a trusted third-party logistics provider with a strategically located facility in the central United States, providing for competitive shipping transit times throughout the USA. Our team of logistics professionals have decades of experience serving e-commerce clients. Brands turn to Abacus when they need a premier solution to their order fulfillment, kitting, assembly, reverse logistics, and light manufacturing needs. They recognize our ability to scale for peak season, and they appreciate our collaborative approach to service.
+              - generic [ref=e700]:
+                - generic [ref=e701]:
+                  - img [ref=e703]
+                  - generic [ref=e705]:
+                    - generic [ref=e706]: Founded in
+                    - generic [ref=e707]: "2009"
+                - generic [ref=e708]:
+                  - img [ref=e710]
+                  - generic [ref=e713]: Enterprise
+              - link "View 3PL Details" [ref=e714] [cursor=pointer]:
+                - /url: /3pl/profile/abacus-logistics
+                - generic [ref=e715]: View 3PL Details
+                - img [ref=e717]
+          - listitem [ref=e719]:
+            - generic [ref=e720]:
+              - generic:
+                - img "Black circle with a white grid pattern of evenly spaced horizontal and vertical lines."
+              - generic [ref=e721]:
+                - heading "Connect With Top-Rated 3PLs" [level=3] [ref=e722]
+                - generic [ref=e723]: Fulfill's featured partners represent the best in the industry - vetted, proven, and ready to deliver exceptional service for your business
+              - link "Find Your Perfect 3PL Match" [ref=e724] [cursor=pointer]:
+                - /url: https://app.fulfill.com/find-3pl/
+                - generic [ref=e725]: Find Your Perfect 3PL Match
+    - article [ref=e727]:
+      - generic [ref=e729]:
+        - generic [ref=e730]:
+          - generic [ref=e731]: Search By Location, Industry, or Specialty
+          - heading "Looking for Specific 3PL Warehouses?" [level=2] [ref=e732]
+        - generic [ref=e733]:
+          - tablist [ref=e734]:
+            - tab "United States" [selected] [ref=e735] [cursor=pointer]:
+              - generic [ref=e736]: United States
+            - tab "Cities" [ref=e737] [cursor=pointer]:
+              - generic [ref=e738]: Cities
+            - tab "International" [ref=e739] [cursor=pointer]:
+              - generic [ref=e740]: International
+            - tab "Vertical" [ref=e741] [cursor=pointer]:
+              - generic [ref=e742]: Vertical
+            - tab "Niche" [ref=e743] [cursor=pointer]:
+              - generic [ref=e744]: Niche
+            - tab "Specialty Solutions" [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]: Specialty Solutions
+          - tabpanel "United States" [ref=e748]:
+            - generic [ref=e749]: Best Warehouses in ...
+            - list [ref=e751]:
+              - listitem [ref=e752]:
+                - link "Alabama" [ref=e753] [cursor=pointer]:
+                  - /url: /3pl/location/alabama
+              - listitem [ref=e754]:
+                - link "Alaska" [ref=e755] [cursor=pointer]:
+                  - /url: /3pl/location/alaska
+              - listitem [ref=e756]:
+                - link "Arizona" [ref=e757] [cursor=pointer]:
+                  - /url: /3pl/location/arizona
+              - listitem [ref=e758]:
+                - link "Arkansas" [ref=e759] [cursor=pointer]:
+                  - /url: /3pl/location/arkansas
+              - listitem [ref=e760]:
+                - link "California" [ref=e761] [cursor=pointer]:
+                  - /url: /3pl/location/california
+              - listitem [ref=e762]:
+                - link "Colorado" [ref=e763] [cursor=pointer]:
+                  - /url: /3pl/location/colorado
+              - listitem [ref=e764]:
+                - link "Connecticut" [ref=e765] [cursor=pointer]:
+                  - /url: /3pl/location/connecticut
+              - listitem [ref=e766]:
+                - link "Delaware" [ref=e767] [cursor=pointer]:
+                  - /url: /3pl/location/delaware
+              - listitem [ref=e768]:
+                - link "Florida" [ref=e769] [cursor=pointer]:
+                  - /url: /3pl/location/florida
+              - listitem [ref=e770]:
+                - link "Georgia" [ref=e771] [cursor=pointer]:
+                  - /url: /3pl/location/georgia
+              - listitem [ref=e772]:
+                - link "Hawaii" [ref=e773] [cursor=pointer]:
+                  - /url: /3pl/location/hawaii
+              - listitem [ref=e774]:
+                - link "Idaho" [ref=e775] [cursor=pointer]:
+                  - /url: /3pl/location/idaho
+              - listitem [ref=e776]:
+                - link "Illinois" [ref=e777] [cursor=pointer]:
+                  - /url: /3pl/location/illinois
+              - listitem [ref=e778]:
+                - link "Indiana" [ref=e779] [cursor=pointer]:
+                  - /url: /3pl/location/indiana
+              - listitem [ref=e780]:
+                - link "Iowa" [ref=e781] [cursor=pointer]:
+                  - /url: /3pl/location/iowa
+              - listitem [ref=e782]:
+                - link "Kansas" [ref=e783] [cursor=pointer]:
+                  - /url: /3pl/location/kansas
+              - listitem [ref=e784]:
+                - link "Kentucky" [ref=e785] [cursor=pointer]:
+                  - /url: /3pl/location/kentucky
+              - listitem [ref=e786]:
+                - link "Louisiana" [ref=e787] [cursor=pointer]:
+                  - /url: /3pl/location/louisiana
+              - listitem [ref=e788]:
+                - link "Maine" [ref=e789] [cursor=pointer]:
+                  - /url: /3pl/location/maine
+              - listitem [ref=e790]:
+                - link "Maryland" [ref=e791] [cursor=pointer]:
+                  - /url: /3pl/location/maryland
+              - listitem [ref=e792]:
+                - link "Massachusetts" [ref=e793] [cursor=pointer]:
+                  - /url: /3pl/location/massachusetts
+              - listitem [ref=e794]:
+                - link "Michigan" [ref=e795] [cursor=pointer]:
+                  - /url: /3pl/location/michigan
+              - listitem [ref=e796]:
+                - link "Minnesota" [ref=e797] [cursor=pointer]:
+                  - /url: /3pl/location/minnesota
+              - listitem [ref=e798]:
+                - link "Mississippi" [ref=e799] [cursor=pointer]:
+                  - /url: /3pl/location/mississippi
+              - listitem [ref=e800]:
+                - link "Missouri" [ref=e801] [cursor=pointer]:
+                  - /url: /3pl/location/missouri
+              - listitem [ref=e802]:
+                - link "Montana" [ref=e803] [cursor=pointer]:
+                  - /url: /3pl/location/montana
+              - listitem [ref=e804]:
+                - link "Nebraska" [ref=e805] [cursor=pointer]:
+                  - /url: /3pl/location/nebraska
+              - listitem [ref=e806]:
+                - link "Nevada" [ref=e807] [cursor=pointer]:
+                  - /url: /3pl/location/nevada
+              - listitem [ref=e808]:
+                - link "New Hampshire" [ref=e809] [cursor=pointer]:
+                  - /url: /3pl/location/new-hampshire
+              - listitem [ref=e810]:
+                - link "New Jersey" [ref=e811] [cursor=pointer]:
+                  - /url: /3pl/location/new-jersey
+              - listitem [ref=e812]:
+                - link "New Mexico" [ref=e813] [cursor=pointer]:
+                  - /url: /3pl/location/new-mexico
+              - listitem [ref=e814]:
+                - link "New York" [ref=e815] [cursor=pointer]:
+                  - /url: /3pl/location/new-york
+              - listitem [ref=e816]:
+                - link "North Carolina" [ref=e817] [cursor=pointer]:
+                  - /url: /3pl/location/north-carolina
+              - listitem [ref=e818]:
+                - link "North Dakota" [ref=e819] [cursor=pointer]:
+                  - /url: /3pl/location/north-dakota
+              - listitem [ref=e820]:
+                - link "Ohio" [ref=e821] [cursor=pointer]:
+                  - /url: /3pl/location/ohio
+              - listitem [ref=e822]:
+                - link "Oklahoma" [ref=e823] [cursor=pointer]:
+                  - /url: /3pl/location/oklahoma
+              - listitem [ref=e824]:
+                - link "Oregon" [ref=e825] [cursor=pointer]:
+                  - /url: /3pl/location/oregon
+              - listitem [ref=e826]:
+                - link "Pennsylvania" [ref=e827] [cursor=pointer]:
+                  - /url: /3pl/location/pennsylvania
+              - listitem [ref=e828]:
+                - link "Rhode Island" [ref=e829] [cursor=pointer]:
+                  - /url: /3pl/location/rhode-island
+              - listitem [ref=e830]:
+                - link "South Carolina" [ref=e831] [cursor=pointer]:
+                  - /url: /3pl/location/south-carolina
+              - listitem [ref=e832]:
+                - link "South Dakota" [ref=e833] [cursor=pointer]:
+                  - /url: /3pl/location/south-dakota
+              - listitem [ref=e834]:
+                - link "Tennessee" [ref=e835] [cursor=pointer]:
+                  - /url: /3pl/location/tennessee
+              - listitem [ref=e836]:
+                - link "Texas" [ref=e837] [cursor=pointer]:
+                  - /url: /3pl/location/texas
+              - listitem [ref=e838]:
+                - link "Utah" [ref=e839] [cursor=pointer]:
+                  - /url: /3pl/location/utah
+              - listitem [ref=e840]:
+                - link "Vermont" [ref=e841] [cursor=pointer]:
+                  - /url: /3pl/location/vermont
+              - listitem [ref=e842]:
+                - link "Virginia" [ref=e843] [cursor=pointer]:
+                  - /url: /3pl/location/virginia
+              - listitem [ref=e844]:
+                - link "Washington" [ref=e845] [cursor=pointer]:
+                  - /url: /3pl/location/washington
+              - listitem [ref=e846]:
+                - link "West Virginia" [ref=e847] [cursor=pointer]:
+                  - /url: /3pl/location/west-virginia
+              - listitem [ref=e848]:
+                - link "Wisconsin" [ref=e849] [cursor=pointer]:
+                  - /url: /3pl/location/wisconsin
+              - listitem [ref=e850]:
+                - link "Wyoming" [ref=e851] [cursor=pointer]:
+                  - /url: /3pl/location/wyoming
+    - generic [ref=e854]:
+      - generic [ref=e856]:
+        - generic [ref=e857]: 3PL Industry Resources
+        - heading "Expert Guides to 3PL Success" [level=2] [ref=e858]
+        - generic [ref=e859]: Access in-depth resources to help you navigate the complexities of logistics partnerships. Our expert guides cover everything from provider selection to optimization strategies.
+      - list [ref=e861]:
+        - listitem [ref=e862] [cursor=pointer]:
+          - link "3PL Finder 7 min read Amazon Seller Fulfilled Prime Guide 2025 | Fulfill.com Learn how to qualify for Amazon Seller Fulfilled Prime and boost profits with fast delivery. Keep the Prime badge without using Amazon's fulfillment c Read more" [ref=e863]:
+            - /url: /blog-posts/amazon-seller-fulfilled-prime
+            - generic [ref=e865]:
+              - generic [ref=e866]:
+                - generic [ref=e867]: 3PL Finder
+                - generic [ref=e868]:
+                  - generic [ref=e869]: "7"
+                  - generic [ref=e870]: min read
+              - heading "Amazon Seller Fulfilled Prime Guide 2025 | Fulfill.com" [level=4] [ref=e871]
+              - generic [ref=e872]: Learn how to qualify for Amazon Seller Fulfilled Prime and boost profits with fast delivery. Keep the Prime badge without using Amazon's fulfillment c
+              - generic [ref=e873]:
+                - generic [ref=e874]: Read more
+                - img [ref=e876]
+        - listitem [ref=e878] [cursor=pointer]:
+          - 'link "3PL Technology 10 min read min read The New Fulfillment Data Layer: What UCP Means for 3PLs Google''s UCP lets AI agents query fulfillment data directly. For 3PLs, inventory accuracy is now how your brand partners win in AI commerce. Read more" [ref=e879]':
+            - /url: /blog-posts/ucp-fulfillment-data-layer-3pl-guide
+            - generic [ref=e881]:
+              - generic [ref=e882]:
+                - generic [ref=e883]: 3PL Technology
+                - generic [ref=e884]:
+                  - generic [ref=e885]: 10 min read
+                  - generic [ref=e886]: min read
+              - 'heading "The New Fulfillment Data Layer: What UCP Means for 3PLs" [level=4] [ref=e887]'
+              - generic [ref=e888]: Google's UCP lets AI agents query fulfillment data directly. For 3PLs, inventory accuracy is now how your brand partners win in AI commerce.
+              - generic [ref=e889]:
+                - generic [ref=e890]: Read more
+                - img [ref=e892]
+        - listitem [ref=e894] [cursor=pointer]:
+          - 'link "3PL Finder 10 min read Switching 3PL Providers: How to Get it Right in 2025 Learn how to switch 3PL providers smoothly, avoid pitfalls, and align your logistics for growth, scalability, and superior customer satisfaction. Read more" [ref=e895]':
+            - /url: /blog-posts/switching-3pls
+            - generic [ref=e897]:
+              - generic [ref=e898]:
+                - generic [ref=e899]: 3PL Finder
+                - generic [ref=e900]:
+                  - generic [ref=e901]: "10"
+                  - generic [ref=e902]: min read
+              - 'heading "Switching 3PL Providers: How to Get it Right in 2025" [level=4] [ref=e903]'
+              - generic [ref=e904]: Learn how to switch 3PL providers smoothly, avoid pitfalls, and align your logistics for growth, scalability, and superior customer satisfaction.
+              - generic [ref=e905]:
+                - generic [ref=e906]: Read more
+                - img [ref=e908]
+    - generic [ref=e913]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e915]
+      - generic [ref=e916]:
+        - generic [ref=e917]:
+          - generic [ref=e918] [cursor=pointer]:
+            - generic [ref=e919]: How does your 3PL matchmaking service work?
+            - img [ref=e922]
+          - paragraph [ref=e926]: Our matching process combines technology and personal consultation. First, you share your business requirements through our questionnaire. For complex needs, we schedule a brief call to understand your requirements in detail. Our team then analyzes your needs against our database of pre-vetted 3PLs and secures interest from appropriate providers. Only after confirming 3PL interest do we present these matches to you. You then select which 3PLs you'd like to connect with, creating a double opt-in process that ensures mutual interest before any introductions.
+        - generic [ref=e927]:
+          - generic [ref=e928] [cursor=pointer]:
+            - generic [ref=e929]: Is your matching service really free? What's the catch?
+            - img [ref=e932]
+          - paragraph [ref=e936]: Yes, our matching service is completely free for businesses seeking 3PL partners. There's no catch - we're able to offer this service at no cost because we receive compensation from 3PLs when successful matches lead to partnerships. This model ensures we're incentivized to make quality matches that work for both parties.
+        - generic [ref=e937]:
+          - generic [ref=e938] [cursor=pointer]:
+            - generic [ref=e939]: How do you ensure 3PLs in your network are reliable?
+            - img [ref=e942]
+          - paragraph [ref=e946]: Every 3PL in our network undergoes a rigorous vetting process. We evaluate their operational capabilities, technology infrastructure, financial stability, and client satisfaction rates. We continuously monitor performance metrics and regularly update our database. Only providers with proven track records remain in our network, ensuring you're connected with truly reliable partners.
+        - generic [ref=e947]:
+          - generic [ref=e948] [cursor=pointer]:
+            - generic [ref=e949]: What information do I need to provide to get matched?
+            - img [ref=e952]
+          - paragraph [ref=e956]: "To receive accurate recommendations, we need to understand your basic business requirements: product types and dimensions, monthly order volume, inventory storage needs, shipping destinations, special handling requirements, and budget constraints. The more details you provide, the more precisely we can match you with compatible 3PLs."
+        - generic [ref=e957]:
+          - generic [ref=e958] [cursor=pointer]:
+            - generic [ref=e959]: How long does it take to find and implement a new 3PL partner?
+            - img [ref=e962]
+          - paragraph [ref=e966]: Our double opt-in matching process typically takes 3 - 5 business days from initial questionnaire to receiving your matched 3PLs. Most businesses select their preferred partner within 2 - 4 weeks after reviewing matches. The implementation timeline varies based on complexity, but typically ranges from 2 - 8 weeks. Our team provides guidance throughout this process to ensure a smooth transition.
+  - generic [ref=e967]:
+    - generic:
+      - img "Dark blue grid background with a mountainous wave pattern in lighter blue tones."
+      - generic:
+        - img
+    - generic [ref=e969]:
+      - generic [ref=e970]:
+        - generic [ref=e971]:
+          - heading "Find Your Perfect 3PL Match Today" [level=3] [ref=e972]
+          - paragraph [ref=e973]:
+            - text: Join thousands of businesses who've found their ideal logistics partners through our matchmaking service.
+            - text: Let us simplify your search.
+        - link "Get Matched With Top 3PLs" [ref=e974] [cursor=pointer]:
+          - /url: https://app.fulfill.com/find-3pl/
+          - generic [ref=e975]: Get Matched With Top 3PLs
+          - img [ref=e977]
+      - generic [ref=e979]:
+        - generic [ref=e980]:
+          - generic [ref=e981]:
+            - generic [ref=e982]: For Brands
+            - generic [ref=e983]:
+              - generic [ref=e984]:
+                - link "Find Your 3PL" [ref=e985] [cursor=pointer]:
+                  - /url: https://app.fulfill.com/find-3pl/
+                - generic [ref=e986]: 10,000+ Matches
+              - link "How It Works" [ref=e987] [cursor=pointer]:
+                - /url: /how-it-works
+              - link "3PL Directory" [ref=e988] [cursor=pointer]:
+                - /url: /3pl
+              - link "Case Studies" [ref=e989] [cursor=pointer]:
+                - /url: /results
+              - link "Client Portfolio" [ref=e990] [cursor=pointer]:
+                - /url: /clients
+              - link "Leave A Review" [ref=e991] [cursor=pointer]:
+                - /url: /review
+          - generic [ref=e992]:
+            - generic [ref=e993]: For 3PLs
+            - generic [ref=e994]:
+              - link "3PL Network" [ref=e995] [cursor=pointer]:
+                - /url: /3pl-network
+              - link "3PL Pricing" [ref=e996] [cursor=pointer]:
+                - /url: /get-listed
+              - link "Apply to List Your 3PL" [ref=e997] [cursor=pointer]:
+                - /url: /get-listed
+              - link "M&A Services" [ref=e998] [cursor=pointer]:
+                - /url: /m-a
+              - link "Vendor Partners" [ref=e999] [cursor=pointer]:
+                - /url: https://www.fulfill.com/partners
+          - generic [ref=e1000]:
+            - generic [ref=e1001]: Company
+            - generic [ref=e1002]:
+              - link "About Us" [ref=e1003] [cursor=pointer]:
+                - /url: /about-us
+              - link "Contact" [ref=e1004] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e1005]:
+            - generic [ref=e1006]: Customers
+            - list [ref=e1009]:
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem
+              - listitem [ref=e1010]:
+                - link "Turtlebox" [ref=e1011] [cursor=pointer]:
+                  - /url: /results/turtlebox
+              - listitem [ref=e1012]:
+                - link "Project Ratchet" [ref=e1013] [cursor=pointer]:
+                  - /url: /results/projectratchet
+              - listitem [ref=e1014]:
+                - link "FurMe" [ref=e1015] [cursor=pointer]:
+                  - /url: /results/furme
+              - listitem [ref=e1016]:
+                - link "Elm Dirt" [ref=e1017] [cursor=pointer]:
+                  - /url: /results/elmdirt
+              - listitem [ref=e1018]:
+                - link "Kiss My Keto" [ref=e1019] [cursor=pointer]:
+                  - /url: /results/kissmyketo
+              - listitem [ref=e1020]:
+                - link "Shield" [ref=e1021] [cursor=pointer]:
+                  - /url: /results/shieldsystem
+          - generic [ref=e1022]:
+            - generic [ref=e1023]: Industry Specialities
+            - list [ref=e1025]:
+              - listitem [ref=e1026]:
+                - link "Apparel 3PL" [ref=e1027] [cursor=pointer]:
+                  - /url: /3pl/specialty/apparel
+                  - generic [ref=e1028]: Apparel 3PL
+              - listitem [ref=e1029]:
+                - link "Food & Beverage 3PL" [ref=e1030] [cursor=pointer]:
+                  - /url: /3pl/specialty/food-beverage
+                  - generic [ref=e1031]: Food & Beverage 3PL
+              - listitem [ref=e1032]:
+                - link "Electronics 3PL" [ref=e1033] [cursor=pointer]:
+                  - /url: /3pl/specialty/electronics
+                  - generic [ref=e1034]: Electronics 3PL
+              - listitem [ref=e1035]:
+                - link "Big & Bulky 3PL" [ref=e1036] [cursor=pointer]:
+                  - /url: /3pl/specialty/big-bulky-solutions
+                  - generic [ref=e1037]: Big & Bulky 3PL
+              - listitem [ref=e1038]:
+                - link "Shopify 3PL" [ref=e1039] [cursor=pointer]:
+                  - /url: /3pl/specialty/shopify
+                  - generic [ref=e1040]: Shopify 3PL
+          - generic [ref=e1041]:
+            - generic [ref=e1042]: Featured Locations
+            - list [ref=e1044]:
+              - listitem [ref=e1045]:
+                - link "California 3PL" [ref=e1046] [cursor=pointer]:
+                  - /url: /3pl/location/california
+                  - generic [ref=e1047]: California 3PL
+              - listitem [ref=e1048]:
+                - link "New Jersey 3PL" [ref=e1049] [cursor=pointer]:
+                  - /url: /3pl/location/new-jersey
+                  - generic [ref=e1050]: New Jersey 3PL
+              - listitem [ref=e1051]:
+                - link "Texas 3PL" [ref=e1052] [cursor=pointer]:
+                  - /url: /3pl/location/texas
+                  - generic [ref=e1053]: Texas 3PL
+              - listitem [ref=e1054]:
+                - link "Florida 3PL" [ref=e1055] [cursor=pointer]:
+                  - /url: /3pl/location/florida
+                  - generic [ref=e1056]: Florida 3PL
+              - listitem [ref=e1057]:
+                - link "Illinois 3PL" [ref=e1058] [cursor=pointer]:
+                  - /url: /3pl/location/illinois
+                  - generic [ref=e1059]: Illinois 3PL
+              - listitem [ref=e1060]:
+                - link "United Kingdom 3PL" [ref=e1061] [cursor=pointer]:
+                  - /url: /3pl/location/united-kingdom
+                  - generic [ref=e1062]: United Kingdom 3PL
+              - listitem [ref=e1063]:
+                - link "Australia 3PL" [ref=e1064] [cursor=pointer]:
+                  - /url: /3pl/location/australia
+                  - generic [ref=e1065]: Australia 3PL
+              - listitem [ref=e1066]:
+                - link "Canada 3PL" [ref=e1067] [cursor=pointer]:
+                  - /url: /3pl/location/canada
+                  - generic [ref=e1068]: Canada 3PL
+              - listitem [ref=e1069]:
+                - link "Mexico 3PL" [ref=e1070] [cursor=pointer]:
+                  - /url: /3pl/location/mexico
+                  - generic [ref=e1071]: Mexico 3PL
+          - generic [ref=e1072]:
+            - generic [ref=e1073]: Channel Specialities
+            - list [ref=e1075]:
+              - listitem [ref=e1076]:
+                - link "Omnichannel 3PL" [ref=e1077] [cursor=pointer]:
+                  - /url: /3pl/specialty/omnichannel
+                  - generic [ref=e1078]: Omnichannel 3PL
+              - listitem [ref=e1079]:
+                - link "B2B (Wholesale) 3PL" [ref=e1080] [cursor=pointer]:
+                  - /url: /3pl/specialty/b2b-wholesale
+                  - generic [ref=e1081]: B2B (Wholesale) 3PL
+              - listitem [ref=e1082]:
+                - link "B2B (Retail) 3PL" [ref=e1083] [cursor=pointer]:
+                  - /url: /3pl/specialty/b2b-retail
+                  - generic [ref=e1084]: B2B (Retail) 3PL
+              - listitem [ref=e1085]:
+                - link "Direct To Consumer (DTC) 3PL" [ref=e1086] [cursor=pointer]:
+                  - /url: /3pl/specialty/direct-to-consumer-dtc
+                  - generic [ref=e1087]: Direct To Consumer (DTC) 3PL
+              - listitem [ref=e1088]:
+                - link "Fulfillment By Amazon (FBA) 3PL" [ref=e1089] [cursor=pointer]:
+                  - /url: /3pl/specialty/fulfillment-by-amazon-fba
+                  - generic [ref=e1090]: Fulfillment By Amazon (FBA) 3PL
+              - listitem [ref=e1091]:
+                - link "Returns Processing 3PL" [ref=e1092] [cursor=pointer]:
+                  - /url: /3pl/specialty/returns-processing
+                  - generic [ref=e1093]: Returns Processing 3PL
+              - listitem [ref=e1094]:
+                - link "Fulfillment By Merchant (FBM) 3PL" [ref=e1095] [cursor=pointer]:
+                  - /url: /3pl/specialty/fulfillment-by-merchant-fbm
+                  - generic [ref=e1096]: Fulfillment By Merchant (FBM) 3PL
+          - generic [ref=e1097]:
+            - generic [ref=e1098]: Resources
+            - generic [ref=e1099]:
+              - link "Blog" [ref=e1100] [cursor=pointer]:
+                - /url: /blog
+              - link "Dossier" [ref=e1101] [cursor=pointer]:
+                - /url: /dossier
+              - link "Logistic Glossary" [ref=e1102] [cursor=pointer]:
+                - /url: /glossary
+              - link "What is 3PL" [ref=e1103] [cursor=pointer]:
+                - /url: /what-is-3pl
+              - link "3PL Pricing Ultimate Guide" [ref=e1104] [cursor=pointer]:
+                - /url: /3pl-pricing
+              - link "Ecommerce Fulfillment Guide" [ref=e1105] [cursor=pointer]:
+                - /url: /ecommerce-fulfillment
+              - link "Top 100 US 3PL Companies" [ref=e1106] [cursor=pointer]:
+                - /url: /top-3pl-companies
+              - link "Section 321 & Mexico Tariffs" [ref=e1107] [cursor=pointer]:
+                - /url: /section-321
+        - generic [ref=e1108]:
+          - generic [ref=e1109]:
+            - link "Logo with a yellow and gray warehouse building and the text 'FULFILL.COM' underneath. Fulfillment without Friction" [ref=e1110] [cursor=pointer]:
+              - /url: /
+              - img "Logo with a yellow and gray warehouse building and the text 'FULFILL.COM' underneath."
+              - generic [ref=e1111]:
+                - text: Fulfillment
+                - text: without Friction
+            - generic [ref=e1112]:
+              - generic [ref=e1113]:
+                - text: 1620 E Riverside Dr
+                - text: Suite 61204, Austin, TX 78741
+              - generic [ref=e1114]:
+                - link [ref=e1115] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/fulfilldotcom/
+                  - img [ref=e1117]
+                - link [ref=e1119] [cursor=pointer]:
+                  - /url: https://twitter.com/FulfillDotCom
+                  - img [ref=e1121]
+                - link [ref=e1123] [cursor=pointer]:
+                  - /url: https://www.facebook.com/fulfillcom
+                  - img [ref=e1125]
+                - link [ref=e1127] [cursor=pointer]:
+                  - /url: https://www.instagram.com/fulfilldotcom/
+                  - img [ref=e1129]
+                - link [ref=e1132] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@fulfilldotcom
+                  - img [ref=e1134]
+          - generic [ref=e1136]:
+            - generic [ref=e1137]: Copyright 2026 © Fulfill.com All rights reserved.
+            - generic [ref=e1138]:
+              - link "Privacy Policy" [ref=e1139] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Terms of Service" [ref=e1140] [cursor=pointer]:
+                - /url: /terms-and-conditions
+  - banner [ref=e1141]:
+    - generic [ref=e1142]:
+      - navigation [ref=e1143]:
+        - link "home" [ref=e1144] [cursor=pointer]:
+          - /url: /
+          - img "Fulfill logo image depicting a 3pl warehouse for ecommerce companies" [ref=e1145]
+        - generic [ref=e1146]:
+          - link "How It Works" [ref=e1147] [cursor=pointer]:
+            - /url: /how-it-works
+          - button "Case Studies" [ref=e1149] [cursor=pointer]:
+            - generic [ref=e1150]: Case Studies
+          - link "3PL Directory" [ref=e1151] [cursor=pointer]:
+            - /url: /3pl
+          - button "Resources" [ref=e1153] [cursor=pointer]:
+            - generic [ref=e1154]: Resources
+          - link "About Us" [ref=e1155] [cursor=pointer]:
+            - /url: /about-us
+        - generic [ref=e1156]:
+          - link "List Your 3PL" [ref=e1157] [cursor=pointer]:
+            - /url: /get-listed
+          - link "Find Your 3PL" [ref=e1158] [cursor=pointer]:
+            - /url: https://app.fulfill.com/find-3pl/
+      - text: 

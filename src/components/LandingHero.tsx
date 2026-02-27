@@ -240,10 +240,6 @@ export default function LandingHero({ onSubmit }: LandingHeroProps) {
         </p>
       </section>
 
-      {/* ── Footer ── */}
-      <footer className={styles.footer}>
-        © 2025 Fulfill.com · All submissions strictly confidential · fulfill.com/m-a
-      </footer>
     </div>
   );
 }

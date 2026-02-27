@@ -1,0 +1,231 @@
+/* ── Footer ── */
+.footer {
+  background: #0B1224;
+  color: #fff;
+}
+
+/* ── CTA Banner ── */
+.ctaBanner {
+  background: linear-gradient(135deg, #0d1a3a 0%, #162452 100%);
+  padding: 72px 24px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ctaInner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.ctaHeading {
+  font-size: 36px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.ctaSub {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.ctaBtn {
+  display: inline-block;
+  padding: 14px 36px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.ctaBtn:hover {
+  background: #1565e0;
+  transform: translateY(-1px);
+}
+
+/* ── Link Columns ── */
+.columnsWrap {
+  padding: 56px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.columns {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 32px;
+}
+
+.column {
+  min-width: 0;
+}
+
+.columnTitle {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 16px;
+}
+
+.columnList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.columnLink {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  transition: color 0.15s ease;
+  line-height: 1.5;
+}
+
+.columnLink:hover {
+  color: #fff;
+}
+
+/* ── Bottom Bar ── */
+.bottomBar {
+  padding: 40px 24px 24px;
+}
+
+.bottomInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.bottomLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerLogo img {
+  height: 36px;
+  width: auto;
+}
+
+.tagline {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.address {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.5;
+}
+
+.bottomRight {
+  display: flex;
+  align-items: center;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 12px;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.socialIcon:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+}
+
+/* ── Copyright ── */
+.copyright {
+  max-width: 1200px;
+  margin: 32px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.legalLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.legalLinks a {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.legalLinks a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .ctaHeading {
+    font-size: 28px;
+  }
+
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 24px;
+  }
+
+  .bottomInner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .copyright {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .ctaBanner {
+    padding: 48px 20px;
+  }
+}

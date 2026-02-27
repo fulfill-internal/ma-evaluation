@@ -35,7 +35,8 @@ export async function sendTemplateEmail(
   }
 }
 
-export async function sendEmail(to: string, subject: string, htmlContent: string): Promise<void> {
+export async function sendEmail(to: string | string[], subject: string, htmlContent: string): Promise<void> {
+  const recipients = Array.isArray(to) ? to.map(email => ({ email })) : [{ email: to }];
   const res = await fetch('https://api.sendgrid.com/v3/mail/send', {
     method: 'POST',
     headers: {
@@ -43,7 +44,7 @@ export async function sendEmail(to: string, subject: string, htmlContent: string
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      personalizations: [{ to: [{ email: to }] }],
+      personalizations: [{ to: recipients }],
       from: { email: FROM_EMAIL, name: 'Fulfill M&A' },
       subject,
       content: [{ type: 'text/html', value: htmlContent }],

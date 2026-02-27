@@ -92,7 +92,7 @@ export default function Page() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email }),
-    }).catch(() => {});
+    }).catch((err) => console.warn('beehiiv subscribe failed:', err));
 
     setScreen('survey');
   }, [setEmail, setEvaluationId]);
@@ -161,10 +161,11 @@ export default function Page() {
               ebitdaMultipleLow: result.ebitdaMultipleLow,
               ebitdaMultipleHigh: result.ebitdaMultipleHigh,
               estimatedEbitda: result.estimatedEbitda,
+              answers: state.answers,
             }),
           });
-        } catch {
-          // Email sending is non-blocking
+        } catch (err) {
+          console.warn('send-results-email failed:', err);
         }
       } catch {
         // Non-blocking — results still displayed
