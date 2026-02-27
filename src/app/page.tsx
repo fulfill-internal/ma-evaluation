@@ -175,6 +175,7 @@ export default function Page() {
     // Brief delay for the "calculating" animation
     setTimeout(() => {
       setScreen('results');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 2000);
   }, [state.answers, state.evaluationId, state.email]);
 
