@@ -13,6 +13,10 @@ export interface Question {
   tooltip?: string;
   required: boolean;
   placeholder?: string;
+  min?: number;
+  max?: number;
+  step?: number;
+  unit?: string;
 }
 
 export interface SurveySection {

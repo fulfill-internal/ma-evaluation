@@ -10,7 +10,7 @@ interface QuestionFieldProps {
 }
 
 export default function QuestionField({ question, value, onChange }: QuestionFieldProps) {
-  const { id, text, type, options, tooltip, placeholder } = question;
+  const { id, text, type, options, tooltip, placeholder, min, max, step, unit } = question;
 
   const handleRadioChange = (optionValue: string) => {
     onChange(id, optionValue);
@@ -86,6 +86,23 @@ export default function QuestionField({ question, value, onChange }: QuestionFie
           value={Array.isArray(value) ? value : []}
           onChange={(selected) => onChange(id, selected)}
         />
+      )}
+
+      {type === 'range' && (
+        <div className={styles.rangeContainer}>
+          <input
+            type="range"
+            className={styles.rangeInput}
+            min={min ?? 0}
+            max={max ?? 100}
+            step={step ?? 1}
+            value={(value as string) || String(min ?? 0)}
+            onChange={(e) => onChange(id, e.target.value)}
+          />
+          <span className={styles.rangeValue}>
+            {(value as string) || String(min ?? 0)}{unit}
+          </span>
+        </div>
       )}
 
       {type === 'multi-select' && (

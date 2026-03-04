@@ -1,7 +1,7 @@
 import type { Answers, ValuationResult, ValuationFactor } from '../types';
 import {
   revenueMultiples,
-  ebitdaMargins,
+  getEbitdaMarginRate,
   adjusterFactors,
 } from './scoringRules';
 
@@ -11,11 +11,12 @@ export function calculateValuation(answers: Answers): ValuationResult {
 
   // Tier 1: Baseline EBITDA and multiple
   const revenue = revenueMultiples[revenueRange];
-  const marginRate = ebitdaMargins[ebitdaMargin];
 
-  if (!revenue || marginRate === undefined) {
+  if (!revenue || !ebitdaMargin) {
     throw new Error('Missing required financial answers for valuation calculation');
   }
+
+  const marginRate = getEbitdaMarginRate(ebitdaMargin);
 
   const estimatedEbitda = revenue.midpoint * marginRate;
   const baseMultipleLow = revenue.multipleLow;

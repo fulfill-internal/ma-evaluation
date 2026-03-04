@@ -1,21 +1,26 @@
 /** Revenue range → midpoint (in dollars) and base multiple range */
 export const revenueMultiples: Record<string, { midpoint: number; multipleLow: number; multipleHigh: number }> = {
-  under_1m:  { midpoint: 500_000,    multipleLow: 3.0, multipleHigh: 4.0 },
-  '1m_3m':   { midpoint: 2_000_000,  multipleLow: 3.5, multipleHigh: 4.5 },
-  '3m_7m':   { midpoint: 5_000_000,  multipleLow: 4.0, multipleHigh: 5.5 },
-  '7m_15m':  { midpoint: 11_000_000, multipleLow: 4.5, multipleHigh: 6.0 },
-  '15m_30m': { midpoint: 22_500_000, multipleLow: 5.0, multipleHigh: 6.5 },
-  '30m_plus':{ midpoint: 45_000_000, multipleLow: 5.5, multipleHigh: 7.0 },
+  under_1m:   { midpoint: 500_000,     multipleLow: 3.0, multipleHigh: 4.0 },
+  '1m_3m':    { midpoint: 2_000_000,   multipleLow: 3.5, multipleHigh: 4.5 },
+  '3m_7m':    { midpoint: 5_000_000,   multipleLow: 4.0, multipleHigh: 5.5 },
+  '7m_10m':   { midpoint: 8_500_000,   multipleLow: 4.5, multipleHigh: 6.0 },
+  '10m_15m':  { midpoint: 12_500_000,  multipleLow: 5.0, multipleHigh: 6.5 },
+  '15m_20m':  { midpoint: 17_500_000,  multipleLow: 5.5, multipleHigh: 7.0 },
+  '20m_30m':  { midpoint: 25_000_000,  multipleLow: 6.0, multipleHigh: 7.5 },
+  '30m_50m':  { midpoint: 40_000_000,  multipleLow: 6.5, multipleHigh: 8.0 },
+  '50m_75m':  { midpoint: 62_500_000,  multipleLow: 7.0, multipleHigh: 8.5 },
+  '75m_100m': { midpoint: 87_500_000,  multipleLow: 7.5, multipleHigh: 9.0 },
+  '100m_plus':{ midpoint: 150_000_000, multipleLow: 8.0, multipleHigh: 10.0 },
 };
 
-/** EBITDA margin range → midpoint percentage (as decimal) */
-export const ebitdaMargins: Record<string, number> = {
-  under_5: 0.03,
-  '5_10':  0.075,
-  '10_15': 0.125,
-  '15_20': 0.175,
-  '20_plus': 0.225,
-};
+/** Parse EBITDA margin slider value (e.g. "15") → decimal (e.g. 0.15) */
+export function getEbitdaMarginRate(value: string): number {
+  const parsed = parseFloat(value);
+  if (isNaN(parsed)) {
+    throw new Error(`Invalid EBITDA margin value: ${value}`);
+  }
+  return parsed / 100;
+}
 
 /** Revenue growth adjuster */
 export const revenueGrowthAdjustments: Record<string, { low: number; high: number }> = {
